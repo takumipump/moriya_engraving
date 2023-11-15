@@ -410,8 +410,6 @@ textarea{
       .menu li {
       
         padding: 15px 0;
-        top:0;
-        padding-top: 0;
         margin: 0 54px;
         opacity: 0;
         transition: 0.5s;
