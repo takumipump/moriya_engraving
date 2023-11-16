@@ -640,6 +640,42 @@ textarea{
         max-width:100%;
         margin:0 auto;
     }
+      .footer-001 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 25px 10px 10px;
+        background-color: #2589d0;
+        margin-bottom: 0;
+    }
+    
+    .footer-001__logo {
+        width: 130px;
+        height: 30px;
+    }
+    
+    .footer-001__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0 1.5em;
+        list-style-type: none;
+        margin: 0 0 .5em;
+        padding: .5em;
+    }
+    
+    .footer-001__link {
+        color: #fff;
+        font-weight: 200;
+        text-decoration: none;
+    }
+    
+    .footer-001__copyright {
+        margin: 0;
+        color: #ffffffb3;
+        font-weight: 200;
+        font-size: .8em;
+    }
     
 
     
