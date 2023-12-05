@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-size:0.9em;
+    font-size: 1rem;
     color:black;
     background-color: white;
     padding-top: 80px;
@@ -30,7 +30,7 @@ header {
     position: fixed;
     width: 100%;
     top:0;
-    font-family:Georgia, serif;
+    font-family:Georgia, serif;/*font family*/
 }
 .menu li {
     display: inline-block;
@@ -55,47 +55,19 @@ input{
     margin-left: 20px;
    
 }
-.global{/*ヘッダーナビ　位置*/
-    position: absolute;
-    top:0;
-    left: 28%;
-    line-height: 1.2;
-    font-size:2em;
-    text-align: center;
-    color:aliceblue;
-    width: 600px;
-    
-    
-    line-height:80px;
 
-}
 
-.global a{/*ヘッダーナビ文字*/
-    color:white;
-    text-decoration: none;
-    
-}
-.container{
-    width:1000px;
-    
-}
-.page_header{/*ヘッダー*/
-    background-color: red;
-    height:80px;
-    top:0;
-    
-}
 
-.page_header h1{
-    margin:0;
-    padding-top: 6px;
-}
-.header_logo{
-    width: 50px;
-}
 
-.global ul{
-    margin: 0;
+
+
+
+
+
+.juice {
+  font-family: Georgia, serif;
+  
+  
 }
 .juice img{
     
@@ -104,6 +76,7 @@ input{
     margin: 30px;
     margin-bottom: 80px;
     margin-top: 30px;
+    
    
 }
 .pic_frame {
@@ -121,9 +94,10 @@ input{
 p{
   color:black;
   margin:10px;
-  font-size:1.5rem;
-  text-align: justify;
-  word-break: break-all
+  
+ 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
   
 }
   
@@ -133,7 +107,7 @@ div{
     
 }
 h1{
-    margin-left: 20px;
+    
     text-decoration: none;
     color:black;
     font-size:2rem;
@@ -164,10 +138,10 @@ th,td{
     border:solid 1px black;
 }
 tr:nth-of-type(even) th,tr:nth-of-type(even) td{
-    background-color: yellowgreen;
+    background-color: white;
 }
 tr:nth-of-type(odd) th,tr:nth-of-type(odd) td{
-    background-color: yellow;}
+    background-color:white;}
   
     aside h1{
       font-size:1.4rem;
@@ -227,6 +201,7 @@ tr:nth-of-type(odd) th,tr:nth-of-type(odd) td{
       flex-direction: column;
       padding: 25px 10px 10px;
       background-color: #2589d0;
+      
   }
   
   .footer-001__logo {
@@ -257,16 +232,55 @@ tr:nth-of-type(odd) th,tr:nth-of-type(odd) td{
       font-size: .8em;
   }
 
-  
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 100px;
+    
+    
 
+  }
+  .juice{
+    text-align: center;
+    
+  }
+  h2{
+    font-size:2rem;
+
+  }
+  p{
+    color:black;
+    margin:10px;
+    line-height: 1.5;
+    text-align: justify;
+    word-break: keep-all;
+    padding:20px;
+    margin-left:300px;
+    margin-right: 300px;
+   
+
+    
+    
+  }
+
+div{
+  text-align: center;
+  
+  margin: 20px;
+  
+}
+}
 
 @media screen and (max-width: 450px){
 
 
 body {
     margin: 0;
-    font-family: "Futura", Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 100px;
+    
+    
 
   }
   
@@ -424,15 +438,17 @@ body {
    
 }
 
-  
+
+
+
 div{
     text-align: center;
     
-    margin: 10px;
+    margin: 20px;
     
 }
 h1{
-    text-align: center;
+    
     text-decoration: none;
     color:black;
     font-size:2rem;
@@ -441,8 +457,20 @@ h1{
 
 }
 p{
-  text-align: justify;
-  word-break: break-all
+  
+  text-align: left;
+  word-break: keep-all;/*単語の途切れをなくす*/
+  margin:10px;
+  line-height: 1.5;
+  margin:20px;
+  
+  
+  
+  
+
+  
+
+
 }
 .access_area{
     margin:0;
@@ -467,14 +495,14 @@ tr:nth-of-type(odd) th,tr:nth-of-type(odd) td{
 }
 .iframe-wrap {
     position: relative;
-    width: 100%;
+    max-width: 100%;
     padding-top: 85%; /* = height ÷ width × 100 */
   }
   .iframe-wrap iframe {
     position: absolute;
     top: 5px;
     left: 0;
-    width: 95%;
+    width: 100%;
     height: 100%;
     
     
@@ -486,6 +514,7 @@ tr:nth-of-type(odd) th,tr:nth-of-type(odd) td{
     
 }
 }
+  
   
 
 
